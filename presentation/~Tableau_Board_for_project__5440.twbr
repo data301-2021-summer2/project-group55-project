@@ -1,0 +1,657 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Procced_dataset' inline='true' name='federated.04ptzv81rji8lm19tmobi0npc3v9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Procced_dataset' name='textscan.11g2cow15uqv8e177blxr14fm9m0'>
+            <connection class='textscan' directory='C:/Users/UX305/data301/data301Project/project-group55-project/data/processed' filename='Procced_dataset.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.11g2cow15uqv8e177blxr14fm9m0' name='Procced_dataset.csv' table='[Procced_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Time' ordinal='1' />
+            <column datatype='real' name='NO2 C(mg/m^3)' ordinal='2' />
+            <column datatype='real' name='T' ordinal='3' />
+            <column datatype='real' name='RH' ordinal='4' />
+            <column datatype='real' name='AH' ordinal='5' />
+            <column datatype='integer' name='Month' ordinal='6' />
+            <column datatype='integer' name='int T' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.11g2cow15uqv8e177blxr14fm9m0' name='Procced_dataset.csv' table='[Procced_dataset#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='Time' ordinal='1' />
+            <column datatype='real' name='NO2 C(mg/m^3)' ordinal='2' />
+            <column datatype='real' name='T' ordinal='3' />
+            <column datatype='real' name='RH' ordinal='4' />
+            <column datatype='real' name='AH' ordinal='5' />
+            <column datatype='integer' name='Month' ordinal='6' />
+            <column datatype='integer' name='int T' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Time]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>Time</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NO2 C(mg/m^3)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NO2 C(mg/m^3)]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>NO2 C(mg/m^3)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>T</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[T]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>T</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RH]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>RH</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AH</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AH]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>AH</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>int T</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[int T]</local-name>
+            <parent-name>[Procced_dataset.csv]</parent-name>
+            <remote-alias>int T</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Procced_dataset.csv' datatype='table' name='[__tableau_internal_object_id__].[Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7]' role='measure' type='quantitative' />
+      <column caption='Temperature(°C)' datatype='integer' name='[int T]' role='measure' type='quantitative' />
+      <column-instance column='[Time]' derivation='None' name='[none:Time:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Time:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;08.00.00&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;00.00.00&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;20.00.00&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;04.00.00&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;12.00.00&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;09.00.00&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;05.00.00&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;18.00.00&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;01.00.00&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;21.00.00&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;16.00.00&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;06.00.00&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;13.00.00&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;14.00.00&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;17.00.00&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;19.00.00&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;10.00.00&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;07.00.00&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;02.00.00&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;22.00.00&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;15.00.00&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;11.00.00&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;03.00.00&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;23.00.00&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Procced_dataset.csv' id='Procced_dataset.csv_745BAFD99E0B42BF81AEE2D03B7BE2C7'>
+            <properties context=''>
+              <relation connection='textscan.11g2cow15uqv8e177blxr14fm9m0' name='Procced_dataset.csv' table='[Procced_dataset#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='string' name='Time' ordinal='1' />
+                  <column datatype='real' name='NO2 C(mg/m^3)' ordinal='2' />
+                  <column datatype='real' name='T' ordinal='3' />
+                  <column datatype='real' name='RH' ordinal='4' />
+                  <column datatype='real' name='AH' ordinal='5' />
+                  <column datatype='integer' name='Month' ordinal='6' />
+                  <column datatype='integer' name='int T' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Average NO2 concentration in Air by Temperature'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Procced_dataset' name='federated.04ptzv81rji8lm19tmobi0npc3v9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ptzv81rji8lm19tmobi0npc3v9'>
+            <column datatype='real' name='[NO2 C(mg/m^3)]' role='measure' type='quantitative' />
+            <column-instance column='[NO2 C(mg/m^3)]' derivation='Avg' name='[avg:NO2 C(mg/m^3):qk]' pivot='key' type='quantitative' />
+            <column caption='Temperature(°C)' datatype='integer' name='[int T]' role='measure' type='quantitative' />
+            <column-instance column='[int T]' derivation='None' name='[none:int T:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='Avg. NO2 concentration' />
+            <format attr='auto-subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='false' />
+            <format attr='subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='mg/m³' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+          </pane>
+        </panes>
+        <rows>[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]</rows>
+        <cols>[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:int T:ok]</cols>
+      </table>
+      <simple-id uuid='{E9F59C8B-5A6E-405C-BF6D-F619F3BF83FE}' />
+    </worksheet>
+    <worksheet name='Avg. NO2 concentration by Relative Humidity'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Avg. NO2 concentration by Relative Humidity</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Procced_dataset' name='federated.04ptzv81rji8lm19tmobi0npc3v9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ptzv81rji8lm19tmobi0npc3v9'>
+            <column datatype='real' name='[NO2 C(mg/m^3)]' role='measure' type='quantitative' />
+            <column datatype='real' name='[RH]' role='measure' type='quantitative' />
+            <column-instance column='[NO2 C(mg/m^3)]' derivation='Avg' name='[avg:NO2 C(mg/m^3):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[RH]' derivation='None' name='[none:RH:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='Avg. NO2 Concentration' />
+            <format attr='auto-subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='false' />
+            <format attr='subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='mg/m³' />
+            <format attr='title' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:RH:qk]' scope='cols' value='Relative Humidity' />
+            <format attr='auto-subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:RH:qk]' scope='cols' value='false' />
+            <format attr='subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:RH:qk]' scope='cols' value='%' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='stroke-size' id='refline1' value='5' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <reference-line axis-column='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-pane' value-column='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' z-order='1' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#ff9da7' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]</rows>
+        <cols>[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:RH:qk]</cols>
+      </table>
+      <simple-id uuid='{7E4AF051-5CBD-48C3-A13D-09517D0566ED}' />
+    </worksheet>
+    <worksheet name='Total Monthly Average NO2 Concentration at Various Time Period'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Monthly Average NO2 Concentration at Various Time Period</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Procced_dataset' name='federated.04ptzv81rji8lm19tmobi0npc3v9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04ptzv81rji8lm19tmobi0npc3v9'>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column datatype='real' name='[NO2 C(mg/m^3)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Time]' role='dimension' type='nominal' />
+            <column-instance column='[NO2 C(mg/m^3)]' derivation='Avg' name='[avg:NO2 C(mg/m^3):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Time]' derivation='None' name='[none:Time:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='Total average NO2 concentration in air' />
+            <format attr='auto-subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='false' />
+            <format attr='subtitle' class='0' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' scope='rows' value='mg/m³' />
+            <format attr='width' field='[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]' value='76' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:Month:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.04ptzv81rji8lm19tmobi0npc3v9].[avg:NO2 C(mg/m^3):qk]</rows>
+        <cols>[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:Time:nk]</cols>
+      </table>
+      <simple-id uuid='{A7937092-7FF1-4AA7-A455-33DCFED463C0}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Final Dashboard'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='83130' id='7' param='horz' type-v2='layout-flow' w='44202' x='499' y='15892'>
+            <zone h='83130' id='5' type-v2='layout-basic' w='44202' x='499' y='15892'>
+              <zone h='44675' id='9' name='Average NO2 concentration in Air by Temperature' w='44202' x='499' y='15892'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='38455' id='10' name='Avg. NO2 concentration by Relative Humidity' w='44202' x='499' y='60567'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='83130' id='3' name='Total Monthly Average NO2 Concentration at Various Time Period' w='44825' x='44701' y='15892'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='83130' id='8' name='Total Monthly Average NO2 Concentration at Various Time Period' pane-specification-id='0' param='[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:Month:ok]' type-v2='color' w='9975' x='89526' y='15892'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone forceUpdate='true' h='14914' id='15' type-v2='text' w='99002' x='499' y='978'>
+            <formatted-text>
+              <run bold='true' fontname='Tableau Bold' fontsize='14'>What are some elements/factors that influences the NO2 cocentration in Air?</run>
+              <run>Æ&#10;</run>
+              <run fontsize='10'>These data are the NO2 cocentration in air in a city of Italy, which recored by using a sensor.</run>
+              <run>Æ&#10;</run>
+              <run fontsize='10'>Illustartion show below aim to find out some elements that can have an effect on the NO2 concentration......</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98044' id='18' param='vert' type-v2='layout-flow' w='99002' x='499' y='978'>
+                <zone forceUpdate='true' h='14914' id='15' type-v2='text' w='99002' x='499' y='978'>
+                  <formatted-text>
+                    <run bold='true' fontname='Tableau Bold' fontsize='14'>What are some elements/factors that influences the NO2 cocentration in Air?</run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='10'>These data are the NO2 cocentration in air in a city of Italy, which recored by using a sensor.</run>
+                    <run>Æ&#10;</run>
+                    <run fontsize='10'>Illustartion show below aim to find out some elements that can have an effect on the NO2 concentration......</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44675' id='9' is-fixed='true' name='Average NO2 concentration in Air by Temperature' w='44202' x='499' y='15892'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='83130' id='3' is-fixed='true' name='Total Monthly Average NO2 Concentration at Various Time Period' w='44825' x='44701' y='15892'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='83130' id='8' name='Total Monthly Average NO2 Concentration at Various Time Period' pane-specification-id='0' param='[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:Month:ok]' type-v2='color' w='9975' x='89526' y='15892'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38455' id='10' is-fixed='true' name='Avg. NO2 concentration by Relative Humidity' w='44202' x='499' y='60567'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{540D08FF-0056-4FBF-944A-753777369A3C}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Total Monthly Average NO2 Concentration at Various Time Period'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.04ptzv81rji8lm19tmobi0npc3v9].[none:Month:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BDBD2B66-5BC5-41B7-BA96-9D8C978C4777}' />
+    </window>
+    <window class='worksheet' name='Average NO2 concentration in Air by Temperature'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EFA7249D-511C-4316-8B36-CDECD1BB6001}' />
+    </window>
+    <window class='worksheet' name='Avg. NO2 concentration by Relative Humidity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5A6133DE-030D-4037-ACBD-7C32B16A643B}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Final Dashboard'>
+      <viewpoints>
+        <viewpoint name='Average NO2 concentration in Air by Temperature'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Avg. NO2 concentration by Relative Humidity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total Monthly Average NO2 Concentration at Various Time Period'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{56F02FF0-2B75-41A4-A03E-8156CF3B343F}' />
+    </window>
+  </windows>
+</workbook>
